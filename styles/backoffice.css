@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #141414;
+}
+
+/*** Main Content ***/
+.main-content:before {
+  content: " ";
+  width: 100%;
+  height: 100% !important;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 22%,
+    rgba(0, 0, 0, 0.2418656938531426) 85%
+  );
+  object-fit: cover;
+}
+.main-content {
+  text-align: center;
+}
+
+.main-content > img {
+  z-index: -99;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.aside-text {
+  color: white;
+  font-style: oblique;
+  font-family: "Nanum Brush Script", cursive;
+}
+
+.main-content h1 {
+  color: white;
+  font-size: 58px;
+}
+
+.main-content .header-strikeout {
+  color: white;
+  font-weight: 800;
+  text-decoration: line-through;
+}
+
+.main-content h3 {
+  color: white;
+}
+.main-content h6 {
+  color: white;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+
+.email-signup {
+  height: 50px;
+  width: 10vw;
+  font-size: 18px;
+}
+
+.intro-text-container {
+  padding-top: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+.users-container .user-avatar a:hover {
+  border: 1px;
+  border-color: whitesmoke;
+}
+
+label {
+  color: whitesmoke;
+}

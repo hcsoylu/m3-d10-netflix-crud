@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #141414;
+  color: white;
+}
+
+/* Transparent Class to ReUse */
+.transparent {
+  background-color: transparent;
+  border-style: none;
+}
+
+.transparent a {
+  background-color: transparent;
+  border-style: none;
+}
+
+/* Nav Bar Button Transparent */
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus,
+.btn-secondary:hover,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  background-color: transparent !important;
+  border-style: none;
+}
+
+/* Nav Avatars */
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.mini-avatar img {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  color: white;
+}
+
+/* Hero Section */
+
+.netflix-highlight-carousel {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+}
+
+footer a {
+  color: #757575;
+}
+
+footer a:hover {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+/* Movie Cards */
+
+/* .trending.card { */
+/* max-width: 150px;
+  max-height: 150px; */
+/* border: 0;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+  margin-top: 1.5rem;
+}
+/*  */
+/* .card {
+  padding: 0px;
+  margin: 0.5rem;
+} */
+/* .trending.card > div {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: -2rem;
+} */
+.card > img {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+.product-card p,
+.product-card h6 {
+  color: black;
+}
